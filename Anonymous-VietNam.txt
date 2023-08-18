@@ -1,0 +1,98 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Anonymous VietNam"/>
+        <meta name="copyright" content="Anonymous VietNam"/>
+        <meta name="description" content="We are Anonymous, We are legion, We don't forgive, We don't forget, United as one, Hacked By xNeonn, Expect us."/>
+        <meta name="keywords" content="Anonymous VietNam, Iran Anonymous, xNeonn, PrivateX, Symbianize Hackers, Phantom Hackers, BloodSecurity Hackers, Philippine Cyber Army">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hacked By xNeonn | Anonymous VietNam</title>
+        <style type="text/css">
+        body {
+        background-image:url('https://i.postimg.cc/KzWYXLb4/t-i-xu-ng-1.jpg');
+        background-position: fixed;
+        background-color:#000000;
+        background-size:cover;
+        }
+        .cent {
+        text-align: center;
+        }
+        .fs{
+        font-family: "Courier New", Courier;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        }
+        .fss{
+        font-family: "Courier New", Courier;
+        color: white;
+        font-size: 14px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="cent">
+            <a href="https://xneon.pages.dev">
+            <img src="https://i.postimg.cc/W4PWDLP9/default-avatar.png" width="200" alt="Anonymous VietNam"/></a>
+        </div>
+        <div class="fs">
+            <script>
+            var message="*The System Has Been Hacked By xNeonn*"
+            var neonbasecolor="gray"
+            var neontextcolor="white"
+            var neontextcolor2="#FFFFA8"
+            var flashspeed=100
+            var flashingletters=3
+            var flashingletters2=1
+            var flashpause=0
+            var n=0
+            if (document.all||document.getElementById){
+            document.write('<font color="'+neonbasecolor+'">')
+            for (m=0;m<message.length;m++)
+            document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+            document.write('</font>')
+            }
+            else
+            document.write(message)
+            function crossref(number){
+            var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+            return crossobj
+            }
+            function neon(){
+            if (n==0){
+            for (m=0;m<message.length;m++)
+            crossref(m).style.color=neonbasecolor
+            }
+            crossref(n).style.color=neontextcolor
+            if (n>flashingletters-1) crossref(n-flashingletters).style.color=neontextcolor2
+            if (n>(flashingletters+flashingletters2)-1) crossref(n-flashingletters-flashingletters2).style.color=neonbasecolor
+            if (n<message.length-1)
+            n++
+            else{
+            n=0
+            clearInterval(flashing)
+            setTimeout("beginneon()",flashpause)
+            return
+            }
+            }
+            function beginneon(){
+            if (document.all||document.getElementById)
+            flashing=setInterval("neon()",flashspeed)
+            }
+            beginneon()
+            </script>
+        </div>
+        <br>
+        <div class="cent">
+            <p class="fss">
+                You better watch out, admin! I'm a dangerous hacker who won't stop until I have completely breached the security of this website and accessed every single piece of sensitive data. I have no fear, and I won't show any mercy to those who stand in my way.
+Are you ready for me, admin? Because once I'm in, there's no stopping me!<br>
+	<br>
+		Ban Da Bi Hack Khong Phai Ve Su Ngu Dot Cua Ban, Ma La Vi Chung Toi Yeu Ban, Hay Bao Ve Website Cua Ban Khoi Hacker BlackHat Giong Nhu Chung Toi<br>
+                <br>
+                GREETINGS: Anonymous VietNam | Iran Anonymous | AnonSec Team | Mrj Haxcore | Cyb3r_Drag0nz_Team | Indonesia Attacker<br><br>
+            </p>
+        </div>
+        </body>
+    </html>
